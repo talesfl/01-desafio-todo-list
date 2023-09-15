@@ -1,0 +1,42 @@
+.newTaskForm {
+    height: 3.375rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: calc(0rem - 1.75rem);
+}
+
+.newTaskInput {
+    background: var(--gray-500);
+    border-radius: 0.5rem;
+    border: 0.0625rem solid var(--gray-700);
+    padding: 1rem;
+    flex-grow: 1;
+    color: var(--gray-300);
+}
+
+.newTaskInput:focus {
+    border-color: var(--purple-dark);
+    color: var(--gray-100);
+}
+
+.formSubmitButton {
+    padding: 1rem;
+    color: var(--gray-100);
+    background: var(--blue-dark);
+    border-radius: 0.5rem;
+    border: none;
+
+    font-size: 0.875rem;
+    font-weight: bold;
+
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5rem;
+    
+    cursor: pointer;
+}
+
+.formSubmitButton:hover {
+    background: var(--blue);
+}

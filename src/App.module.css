@@ -1,0 +1,16 @@
+.contentWrapper {
+  margin: 0 auto;
+  max-width: 46rem;
+  padding: 0 0.5rem;
+}
+
+.todoListWrapper {
+  margin-top: 5.6875rem;
+}
+
+.taskListWrapper {
+  margin-top: 1.5625rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem
+}

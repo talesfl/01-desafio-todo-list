@@ -1,0 +1,13 @@
+.todoHeader {
+    background: var(--gray-700);
+    height: 12.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.todo {
+    padding-bottom: 0.5rem;
+}

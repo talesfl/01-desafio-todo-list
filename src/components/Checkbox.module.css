@@ -1,0 +1,29 @@
+.checkbox, 
+.checkboxChecked {
+    height: 1.1rem;
+    width: 1.1rem;
+    line-height: 0;
+    background: transparent;
+    border-radius: 62.4375rem;
+    cursor: pointer;
+}
+
+
+.checkbox {
+    border: 0.125rem solid var(--blue);
+}
+
+.checkbox:hover {
+    border-color: var(--blue-dark);
+}
+
+.checkboxChecked {
+    border: 0.125rem solid var(--purple-dark);
+    background: var(--purple-dark);
+    color: var(--gray-100);
+}
+
+.checkboxChecked:hover {
+    border-color: var(--purple);
+    background: var(--purple);
+}

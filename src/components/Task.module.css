@@ -1,0 +1,39 @@
+.taskWrapper {
+    display: grid;
+    grid-template-columns: 1.5rem 1fr 1.5rem;
+    grid-gap: 0.75rem;
+    align-items: flex-start;
+
+    padding: 1rem 1rem;
+    background: var(--gray-500);
+
+    border: 0.0625rem solid var(--gray-400);
+    border-radius: 0.5rem;
+}
+
+.taskText {
+    font-size: 0.875rem;
+    color: var(--gray-100);
+}
+
+.taskTextDone {
+    font-size: 0.875rem;
+    color: var(--gray-300);
+    text-decoration: line-through;
+}
+
+.trashButton {
+    line-height: 0;
+    background: transparent;
+    border: transparent;
+    border-radius: 0.25rem;
+    color: var(--gray-300);
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.trashButton:hover {
+    color: var(--danger);
+    background: var(--gray-400);
+}
