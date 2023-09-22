@@ -5,6 +5,8 @@ import { ChangeEvent, FormEvent, useState } from 'react'
 
 import { TaskType } from './Task'
 
+import { v4 as uuidv4 } from 'uuid'
+
 interface NewTaskFormProps {
     onCreate: (task: TaskType) => void
 }
@@ -15,7 +17,7 @@ export function NewTaskForm({ onCreate }: NewTaskFormProps) {
     function handleSubmit(event: FormEvent) {
         event.preventDefault()
         onCreate({ 
-            id: crypto.randomUUID(),
+            id: uuidv4(),
             description: taskDescription,
             done: false
         } as TaskType) 
